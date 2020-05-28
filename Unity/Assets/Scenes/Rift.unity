@@ -518,7 +518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 530a72ee34d3ae148b11fd8ebd6187a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filename: D:\UCL\TrackerDynamics\Recordings\Rift1.bin
+  directory: D:\UCL\TrackerDynamics\Recordings
+  filename: rift_camview_phone.bin
 --- !u!114 &1780567409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,7 +549,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1937911181
 MonoBehaviour:
   m_ObjectHideFlags: 0

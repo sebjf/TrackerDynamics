@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class RecorderNode : MonoBehaviour
 {
+    public string directory;
     public string filename;
 
     private FileStream stream;
@@ -20,7 +21,7 @@ public class RecorderNode : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        stream = new FileStream(filename, FileMode.Create);
+        stream = new FileStream(Path.Combine(directory,filename), FileMode.Create);
         Writer = new BinaryWriter(stream);
     }
 

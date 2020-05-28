@@ -17,7 +17,7 @@ public class InputHelper : MonoBehaviour
         {
             foreach (var item in GetComponentsInChildren<TransformRecorder>())
             {
-                item.word = item.word > 0 ? 0 : 1;
+                item.word++;
             }
         }
     }

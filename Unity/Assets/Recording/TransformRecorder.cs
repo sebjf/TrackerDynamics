@@ -23,6 +23,9 @@ public class TransformRecorder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        recorder.WriteTransform(transform, id, word);
+        if (recorder)
+        {
+            recorder.WriteTransform(transform, id, word);
+        }
     }
 }
